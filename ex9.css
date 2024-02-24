@@ -1,0 +1,545 @@
+html, body {
+	background-image: url("1004231.jpg");
+	background-size: cover;
+	-webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+	margin: 0;
+	padding: 0;
+}
+
+label {
+	font-family: Montserrat;
+	font-size: 15px;
+/*	margin-left: 10px;
+*/	/*fill : none;
+	stroke : black;
+	stroke-width : 10px;
+	stroke-linejoin : round;*/
+	/*animation : 2s pulsate infinite;*/
+}
+
+input[type=text] {
+	width: 65%;
+	height: 10px;
+	padding: 12px 20px;
+	margin: 8px 0;
+	border: 0;
+	border-top: solid;
+	background: transparent;
+	text-align: center;
+	font-family: Montserrat;
+	Background-color: #FFFBF8;
+	font-size: 15px;
+}
+
+input[type=number] {
+	width: 150px;
+	height: 10px;
+	padding: 12px 20px;
+	margin: 8px 0;
+	border: 0;
+	margin-left: 9px;
+	border-top: solid;
+	background: transparent;
+	text-align: center;
+	font-family: Montserrat;
+	Background-color: #FFFBF8;
+	font-size: 15px;
+}
+
+input[type=tel] {
+	width: 65%;
+	height: 10px;
+	padding: 12px 20px;
+	margin: 8px 0;
+	border: 0;
+	border-top: solid;
+	background-color: #FFFBF8;
+	font-family: Montserrat;
+	text-align: center;
+	font-size: 15px;
+}
+
+
+input[type=email] {
+	width: 65%;
+	height: 10px;
+	padding: 12px 20px;
+	margin: 8px 0;
+	border: 0;
+	border-top: solid;
+	background-color: none;
+	background: transparent;
+	text-align: center;
+	font-family: Montserrat;
+	font-size: 15px;
+	Background-color: #FFFBF8;
+}
+
+input[type=radio] {
+	/*border-top: solid;
+	background-color: none;
+	background: transparent;*/
+	font-family: Montserrat;
+	Background-color: #FFFBF8;
+}
+
+input[type=checkbox] {
+	/*border-top: solid;
+	background-color: none;
+	background: transparent;*/
+	font-family: Montserrat;
+	font-size: 15px;
+	Background-color: #FFFBF8;
+	margin-left: 10px;
+}
+
+#endform {
+	height: 300px;
+}
+
+.footer {
+	height: 850px;
+}
+
+input[type=date] {
+	width: 260px;
+	height: 10px;
+	padding: 12px 20px;
+	margin: 8px 0;
+	border: 0;
+	border-top: solid;
+	background-color: #FFFBF8;
+	font-family: Montserrat;
+	text-align: center;
+	font-size: 15px;
+	margin-top: 680px;
+	position: absolute;
+	margin-left: 1185px;
+}
+
+input[type=time] {
+	width: 250px;
+	height: 10px;
+	padding: 12px 20px;
+	margin: 8px 0;
+	border: 0;
+	border-top: solid;
+	background-color: #FFFBF8;
+	font-family: Montserrat;
+	text-align: center;
+	font-size: 15px;
+	position: absolute;
+	margin-top: 680px;
+	margin-left: 1545px;
+}
+
+input[type=submit] {
+	width: 800px;
+	height: 50px;
+	padding: 12px 20px;
+	margin: 8px 0;
+	border: 0;
+	border-top: solid;
+	background-color: #FFFBF8;
+	font-family: Montserrat;
+	text-align: center;
+	font-size: 15px;
+	margin-top: 980px;
+	margin-left: 219px;
+	position: absolute;
+}
+
+.lowerboxbgupper {
+	background-color: #D2D1D2;
+	height: 110px;
+	width: 1090px;
+	opacity: 0.8;
+	display: grid;
+	margin-top: 555px;
+	/*from 552px*/
+	margin-left: 80px;
+	position: absolute;
+}
+
+.lowerboxbg {
+	background-color: #D2D1D2;
+	height: 150px;
+	width: 1090px;
+	opacity: 0.8;
+	display: grid;
+	margin-top: 700px;
+	/*from 552px*/
+	margin-left: 80px;
+}
+
+.hori {
+	width: 400px;
+	margin-top: 952px;
+	margin-left: 450px;
+}
+
+.thirdlabel {
+	font-weight: 900;
+	font-size: 19.5px;
+	text-align: center;
+	margin-top: 514px;
+	height: 200px;
+	width: 300px;
+	position: absolute;
+	font-family: Poppins-Bold;
+	margin-left: 500px;
+	color: #392A28;
+}
+
+.shippingtitle {
+  font-family: Poppins-Regular;
+	font-size: 18px;
+	margin-left: 130px;
+	width: 100px;
+	margin-top: 124px; 
+	/*from 465*/
+	position: absolute;
+}
+
+.deliveryoption1 {
+  font-family: Montserrat;
+	margin-left: 310px;
+	margin-top: 610px; 
+	position: absolute;
+	/*from 465*/
+}
+
+.deliveryoption2 {
+  font-family: Montserrat;
+	margin-left: 830px;
+	margin-top: 610px; 
+	position: absolute;
+	/*from 465*/
+}
+
+.titleslower {
+	font-family: Poppins-Regular;
+	font-size: 18px;
+	margin-left: 940px;
+	width: 100px;
+	margin-top: 614px; 
+	/*from 465*/
+	position: absolute;
+}
+
+.titleslower1 {
+	font-family: Poppins-Regular;
+	font-size: 18px;
+	margin-left: 1229px;
+	width: 220px;
+	margin-top: 614px;
+	position: absolute;
+}
+
+.titleslower2 {
+	font-family: Poppins-Regular;
+	font-size: 18px;
+	margin-left: 1594px;
+	width: 200px;
+	margin-top: 614px;
+	position: absolute;
+}
+
+textarea {
+	width: 230px;
+	height: 20px;
+	padding: 12px 20px;
+	margin: 8px 0;
+	border: 0;
+	border-top: solid;
+	background-color: #FFFBF8;
+	font-family: Montserrat;
+	text-align: center;
+	font-size: 15px;
+	margin-top: 680px;
+	position: absolute;
+	margin-left: 855px;
+}
+
+input[type=reset] {
+	width: 800px;
+	height: 50px;
+	padding: 12px 20px;
+	margin: 8px 0;
+	border: 0;
+	border-top: solid;
+	background-color: #FFFBF8;
+	font-family: Montserrat;
+	text-align: center;
+	font-size: 15px;
+	margin-top: 878px;
+	margin-left: 219px;
+	position: absolute;
+}
+
+h1 {
+	margin-top: 5px;
+	color:  transparent;
+	-webkit-text-stroke-width: 0.02px;
+	-webkit-text-stroke-color: #FFF4E8;
+}
+
+select {
+	margin-left: 10px;
+	width: 310px;
+	padding: 12px 20px;
+	margin: 8px 0;
+	border: 0;
+	border-top: solid;
+	background-color: #FFFBF8;
+	font-family: Montserrat;
+	text-align: center;
+	font-size: 15px;
+}
+
+fieldset {
+	border: 0;
+}
+
+@font-face {
+	font-family: "Montserrat";
+	src: url("Montserrat/Montserrat-VariableFont_wght.ttf") format("truetype")
+}
+
+@font-face {
+	font-family: "Monument-UltraBold";
+	src: url("Monument/MonumentExtended-Ultrabold.otf") format("opentype")
+}
+
+@font-face {
+	font-family: "Monument-Regular";
+	src: url("Monument/MonumentExtended-Regular.otf") format("opentype")
+}
+
+@font-face {
+	font-family: "Poppins-Bold";
+	src: url("Poppins/Poppins-Bold.ttf") format("truetype")
+}
+
+@font-face {
+	font-family: "Portico";
+	src: url("Portico Outline.otf") format("opentype")
+}
+
+@font-face {
+	font-family: "Poppins-Regular";
+	src: url("Poppins/Poppins-Regular.ttf") format("truetype")
+}
+
+.alertChange {
+	font-family: Poppins-Regular;
+	font-size: 15px;
+	/*margin-left: 0;*/
+	width: 100%;
+	text-align: center;
+	margin-top: 636px;
+	position: absolute;
+}
+
+.titles {
+	font-family: Poppins-Regular;
+	font-size: 18px;
+	/*margin-left: 0;*/
+	margin-left: -15px;
+}
+
+.titlesright{
+	font-family: Poppins-Regular;
+	font-size: 18px;
+	margin-left: -8px;
+}
+
+.firstlabel {
+	font-weight: 900;
+	font-size: 19.5px;
+	text-align: center;
+	margin-top: 0px;
+	height: 200px;
+	width: 300px;
+	position: absolute;
+	font-family: Poppins-Bold;
+	margin-left: 80px;
+	color: #392A28;
+}
+
+.secondlabel {
+	font-weight: 900;
+	font-size: 19.5px;
+	margin-top: 0px;
+	height: 200px;
+	width: 300px;
+	position: absolute;
+	font-family: Poppins-Bold;
+	margin-left: 670px;
+	color: #392A28;
+}
+
+.dedicate {
+	margin-top: 27px;
+	width: 179px;
+	height: 50px;
+	margin-left: -181px;
+}
+
+.leftboxbg {
+	background-color: #D2D1D2;
+	height: 415px;
+	width: 300px;
+	opacity: 0.8;
+	display: grid;
+	margin-top: 40px;
+	margin-left: 83px;
+}
+
+.leftbox {
+	height: 160px;
+	width: 300px;
+	opacity: 1;
+	display: grid;
+	text-align: center;
+	margin-top: 53px;
+	color: #3B2D2E;
+	margin-left: 71px;
+	font-weight: bold;
+}
+
+.leftbox, .leftboxbg {
+  grid-column: 1;
+  grid-row: 1;
+  position: absolute;
+}
+
+.rightbox1bg {
+	background-color: #D2D1D2;
+	height: 445px;
+	width: 350px;
+	opacity: 0.8;
+	display: grid;
+	margin-top: 40px;
+	margin-left: 436px;
+}
+
+.rightbox2bg {
+	background-color: #D2D1D2;
+	height: 415px;
+	width: 370px;
+	opacity: 0.8;
+	display: grid;
+	margin-top: 40px;
+	margin-left: 806px;
+}
+
+.rightbox1 {
+	height: 160px;
+	width: 330px;
+	opacity: 1;
+/*	display: grid;
+*/	margin-top: 50px;
+	color: #3B2D2E;
+	margin-left: 465px;
+	font-weight: bold;
+}
+
+.rightbox2 {
+	height: 160px;
+	width: 300px;
+	opacity: 1;/*
+	display: grid;*/
+	margin-top: 53px;
+	color: #3B2D2E;
+	margin-left: 830px;
+	font-weight: bold;
+}
+
+.rightbox1, .rightbox2, .rightbox2bg, .rightbox1bg {
+	position: absolute;
+}
+
+.lowerbox {
+	height: 300px;
+	width: 218px;
+	opacity: 1;
+	display: grid;
+	text-align: center;
+	margin-top: 100px;
+	color: #3B2D2E;
+	margin-left: -720px;
+	font-weight: bold;
+}
+
+.lowerbox, .lowerboxbg {
+	position: absolute;
+}
+
+.headerrr {
+	font-family: Monument-Regular;
+	letter-spacing: 6px;
+	background-color: #AA3429;
+	font-size: 10px;
+	padding: 10px;
+	height: 35px;
+	width: 1200px;
+	margin-left: 22px;
+	text-align: center;
+	/*text-align: center;*/
+	margin-top: 20px;
+}
+
+.firstbox {
+	text-align: center;
+}
+
+.textdesign {
+	font-family: Poppins-Bold;
+	font-size: 90px;
+	text-align: center;
+	margin-left: 25px;
+	margin-top: 100px;
+	margin-right: 25px;
+	color: #271B18;
+}
+
+.textdesign1 {
+	font-family: Poppins-Regular;
+	font-size: 40px;
+	text-align: center;
+	margin-left: 25px;
+	margin-top: 200px;
+	margin-right: 25px;
+	color: #271B18;
+}
+
+#design {
+	height: 500px;
+	width: 1165px;
+	margin-top: 50px;
+	margin-left: 50px;
+}
+
+hr {
+	border-top: 4px solid #AA3429;
+}
+/* for reference laterrr
+
+https://www.interiorsbycolor.com/wp-content/uploads/2022/01/pastel-color-palette.jpg
+https://i.pinimg.com/originals/8f/c7/51/8fc751a33470bdc513591069eafbe581.png
+https://mir-s3-cdn-cf.behance.net/projects/404/8bc612118812315.Y3JvcCw1MzUxLDQxODUsMCwzNzA4.jpg
+
+
+
+to-do: 
+	- gawa ng logo galing canva
+	- transparency nung bg image na hindi damay ang text
+
+
+
+*/

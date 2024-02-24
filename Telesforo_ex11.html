@@ -1,0 +1,202 @@
+<!-- EXER 9 - Telesforo, Laira Claire M.
+CMSC 12 - B1L
+CSS: Wedding Cake Order Form -->
+
+<!DOCTYPE html>
+<html>
+<head>
+	<link rel="stylesheet" href="ex9.css">
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title></title>
+</head>
+<body>
+	<form id="form">	
+		<div class="header">
+			<div class="headerrr">
+				<h1> SUGAR, SPICE, AND EVERYTHING NICE. </h1> 
+			</div>
+		</div>
+
+		<div id="main"> 
+			<div id="content">
+				<div id="design">
+					<div class="textdesign">
+						<label class="textdesign"> Satisfy your sweet tooth! </label>
+						<br>
+						<label class="textdesign1"> ...or get married with style. Order now! </label>
+						<hr> 
+						<br>
+					</div>
+				</div>
+				<div id="leftcol"></div>
+				<div class="leftboxbg"></div>
+				<div id="rightcol"></div>
+				<div class="rightbox1bg"></div>
+				<div class="rightbox2bg"></div>
+				<div class="lowerboxbg"></div>
+				<div class="lowerboxbgupper"></div>
+				<div class="lowerbox"></div>
+				<div id="footer"></div>
+			</div>
+		</div>
+
+		<p id="alert" class="alertChange"></p>
+
+		<legend class="firstlabel">CUSTOMER INFORMATION</legend>
+		<legend class="firstlabel"></legend>
+
+		<fieldset class="leftbox">
+			<fieldset>
+			<label for="name">Name:</label> 
+			<br>
+			<input type="text" name="name" id="name" required>
+			<br>
+			<br>
+			<label for="number">Mobile Number:</label>  
+			<input type="tel" placeholder="09XXXXXXXXX" pattern="09[0-9]{9}" name="number" id="number" required>
+			<br>
+			<br>
+			<label for="email">Email Address:</label>  
+			<input type="email" name="email" id="email" required>
+			<br>
+			<br>
+			<label class="dediclabel"> Dedication: (if any) </label> 
+				<textarea class="dedicate" rows="5" columns="500" placeholder="">Dedicate to your heart's content. (Not too long though. ;p) </textarea>
+			</fieldset>
+		</fieldset> 
+
+		<legend class="secondlabel">WEDDING CAKE DETAILS</legend>
+		<legend class="secondlabel"></legend>
+
+		<fieldset class="rightbox1">
+			<label for="tiers"> Tiers (1-5):</label> 
+			<input type="number" name="tiers" id="tiernum" min="1" max="5">
+			<br>
+
+			<label class="titles"> CAKE FLAVOR </label>
+			<br>
+			<input type="radio" name="cakeflavor" id="tradwhite" value="Traditional White" checked="checked"> 
+			<label for="tradwhite">Traditional White</label> <br>
+			<input type="radio" name="cakeflavor" id="devil" value="Devil's Food Chocolate">
+			<label for="devil">Devil's Food Chocolate</label>  <br>
+			<input type="radio" name="cakeflavor" id="redvelvet" value="Red Velvet">
+			<label for="redvelvet">Red Velvet</label> <br>
+			<input type="radio" name="cakeflavor" id="lemon" value="Lemon">
+			<label for="lemon">Lemon</label> <br>
+
+			<br>
+
+			<label class="titles"> FILLING </label> <br>
+
+			<input type="radio" name="filling" id="raspjam" value="Raspberry Jam" checked="checked">
+			<label for="raspjam">Raspberry Jam</label>  
+			<br>
+			<input type="radio" name="filling" id="strawberryjam" value="Strawberry Jam">
+			<label for="strawberryjam">Strawberry Jam</label>  
+			<br>
+			<input type="radio" name="filling" id="buttercream" value="Buttercream">
+			<label for="buttercream">Buttercream</label>
+			<br>
+			<input type="radio" name="filling" id="apricot" value="Apricot Jam">
+			<label for="apricot">Apricot Jam</label>
+
+			<br>
+			<br>
+			<label class="titles"> ICING </label> <br>
+
+			<input type="radio" name="icing" id="butter" value="Buttercream" checked="checked">
+			<label for="butter">Buttercream</label>  
+			<br>
+			<input type="radio" name="icing" id="creamcheese" value="Cream Cheese">
+			<label for="creamcheese">Cream Cheese</label>  
+			<br>
+			<input type="radio" name="icing" id="mocha" value="Mocha Espresso">
+			<label for="mocha">Mocha/Espresso</label>  
+			<br>
+
+			<label class="shippingtitle"> Shipping </label>
+			<br>
+
+		</fieldset>
+
+		<fieldset class="rightbox2">
+			<label class="titlesright"> INSIDE CAKE ADDITIONS </label> <br>
+			<input type="checkbox" name="cakeadd" id="walnut" value="Walnut">
+			<label for="walnut"> Walnut </label> <br>
+			<input type="checkbox" name="cakeadd" id="chocchips" value="Chocolate Chips"> 
+			<label for="chocchips"> Chocolate Chips </label> <br>
+			<input type="checkbox" name="cakeadd" id="macadamianuts" value="Macadamia Nuts">
+			<label for="macadamianuts"> Macadamia Nuts </label> <br>
+			<input type="checkbox" name="cakeadd" id="whitecchips" value="White Chocolate Chips">
+			<label for="whitecchips"> White Chocolate Chips </label> <br> <br>
+			<br>
+
+			<label class="titlesright"> DECORATIVE ADDITIONS  </label><br>
+			<input type="checkbox" name="caked" id="walnutt" value="Walnut">
+			<label for="walnutt"> Walnut </label> <br>
+			<input type="checkbox" name="caked" id="chocchipss" value="Chocolate Chips"> 
+			<label for="chocchipss"> Chocolate Chips </label> <br>
+			<input type="checkbox" name="caked" id="macadamianutss" value="Macadamia Nuts">
+			<label for="macadamianutss"> Macadamia Nuts </label> <br>
+			<input type="checkbox" name="caked" id="whitecchipss" value="White Chocolate Chips">
+			<label for="whitecchipss"> White Chocolate Chips </label>
+			<br>
+			<br>
+			<br>
+
+			<label class="titles"> LIQUOR INFUSION </label> <br>
+			<select name="liquor" id="liquor_choice">
+			<option id="rum" value="Rum">Rum</option>
+			<option id="amaretto" value="Amaretto">Amaretto</option>
+			<option id="kaluha" value="Kaluha">Kaluha</option>
+			<option id="noliquor" value="None">None</option>
+			</select>
+		
+		</fieldset>
+
+		<legend class="thirdlabel">DELIVERY DETAILS</legend>
+
+		<fieldset class="deliveryoption1">
+			<input type="radio" name="store_pickup" id="storepickup" class="storepickup" value="Store Pickup" onclick="disableDelivery()" checked="disableDelivery()"> 
+			<label for="storepickup" onclick="disableDelivery()">Store Pickup</label> <br>
+		</fieldset>
+
+		<fieldset class="deliveryoption2">
+			<input type="radio" name="deli_very" id="radioDeliver" class="delivery" value="Delivery" onclick="enableDelivery()">
+			<label for="delivery" onclick="enableDelivery()"> Delivery </label>  <br>
+		</fieldset>
+
+		<fieldset class="lowerbox">
+			<label class="titleslower"> DELIVERY ADDRESS </label> 
+			<textarea id="deliveryAddress" rows="5" columns="500">Address here...</textarea>
+			<br>
+			<label class="titleslower1"> PREFFERED DELIVERY DATE </label>
+			<input id="prefDDate" type="date" name="ddate" onChange="dateChecker()" required>
+			<br>
+			<label class="titleslower2"> PREFERRED DELIVERY TIME</label>
+			<input id="prefDTime" type="time" name="dtime" onChange="timeChecker()" required>
+			<br>
+		</fieldset>
+
+		<fieldset id="endform">
+			<input type="submit" value="Submit" onclick="cakecost()">
+			<input type="reset" value="Reset">
+			<hr class="hori">
+		</fieldset>
+
+		<div class="footer">
+		</div>
+
+		<script src="ex12.js"></script>
+
+	</form>
+
+	<script type="text/javascript">
+		document.getElementById("form").addEventListener("submit", function(event) {
+			event.preventDefault();
+		});
+	</script>
+
+</body>
+</html>
